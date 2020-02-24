@@ -312,7 +312,7 @@
     "github.com/andreyvit/diff",
     "github.com/jpgpereira/exporter_shared",
     "github.com/jpgpereira/exporter_shared/helpers",
-    "github.com/jpgpereira/pmm/version",
+    "github.com/percona/pmm/version",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
     "github.com/prometheus/common/log",

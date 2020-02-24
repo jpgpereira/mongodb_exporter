@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/andreyvit/diff"
-	pmmVersion "github.com/jpgpereira/pmm/version"
+	pmmVersion "github.com/percona/pmm/version"
 	"github.com/prometheus/common/version"
 	"github.com/stretchr/testify/assert"
 

@@ -27,7 +27,7 @@ import (
 	"github.com/prometheus/common/version"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	pmmVersion "github.com/jpgpereira/pmm/version"
+	pmmVersion "github.com/percona/pmm/version"
 
 	"github.com/jpgpereira/mongodb_exporter/collector"
 	"github.com/jpgpereira/mongodb_exporter/shared"
