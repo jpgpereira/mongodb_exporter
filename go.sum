@@ -40,8 +40,8 @@ github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
-github.com/jpgpereira/exporter_shared v0.4.0 h1:qVWh73pFhXtw3FDtM26PIBFDZurjErVOPy/brx9ODkA=
-github.com/jpgpereira/exporter_shared v0.4.0/go.mod h1:kv/t+I3EfCUyKv3yFKhel0Ie8wKbzPXj2G9J5fNIRgE=
+github.com/percona/exporter_shared v0.4.0 h1:qVWh73pFhXtw3FDtM26PIBFDZurjErVOPy/brx9ODkA=
+github.com/percona/exporter_shared v0.4.0/go.mod h1:kv/t+I3EfCUyKv3yFKhel0Ie8wKbzPXj2G9J5fNIRgE=
 github.com/jpgpereira/pmm v0.0.0-20190616165924-3b769b4ca86e h1:6weL872zhZBQ8iwBrBu/JbRWFClXbfw3kx4dt580xIo=
 github.com/jpgpereira/pmm v0.0.0-20190616165924-3b769b4ca86e/go.mod h1:nN14kK4Dfl2Ub1k05aOnAHv7SmLEQtCsYX+DEfLgrkU=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

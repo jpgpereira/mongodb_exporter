@@ -94,7 +94,7 @@
 
 [[projects]]
   digest = "1:92b6bfd428d2e785a5244dec3ff30e7635e62911d906d29151d0462f79dc94d3"
-  name = "github.com/jpgpereira/exporter_shared"
+  name = "github.com/percona/exporter_shared"
   packages = [
     ".",
     "helpers",
@@ -310,8 +310,8 @@
   input-imports = [
     "github.com/Masterminds/semver",
     "github.com/andreyvit/diff",
-    "github.com/jpgpereira/exporter_shared",
-    "github.com/jpgpereira/exporter_shared/helpers",
+    "github.com/percona/exporter_shared",
+    "github.com/percona/exporter_shared/helpers",
     "github.com/percona/pmm/version",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
