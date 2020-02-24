@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/percona/mongodb_exporter/testutils"
+	"github.com/jpgpereira/mongodb_exporter/testutils"
 )
 
 func TestGetReplSetConfDecodesFine(t *testing.T) {

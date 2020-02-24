@@ -4,7 +4,7 @@
   unused-packages = true
 
 [[constraint]]
-  name = "github.com/percona/pmm"
+  name = "github.com/jpgpereira/pmm"
   branch = "PMM-2.0"
 
 [[constraint]]

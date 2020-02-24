@@ -94,7 +94,7 @@
 
 [[projects]]
   digest = "1:92b6bfd428d2e785a5244dec3ff30e7635e62911d906d29151d0462f79dc94d3"
-  name = "github.com/percona/exporter_shared"
+  name = "github.com/jpgpereira/exporter_shared"
   packages = [
     ".",
     "helpers",
@@ -106,7 +106,7 @@
 [[projects]]
   branch = "PMM-2.0"
   digest = "1:0fd1156e4cbab2379718603dba29b40b71fc2a05366aafa4abb03ec24229fced"
-  name = "github.com/percona/pmm"
+  name = "github.com/jpgpereira/pmm"
   packages = ["version"]
   pruneopts = "NUT"
   revision = "3b769b4ca86e69a42e60fd8434526388c387f6d3"
@@ -310,9 +310,9 @@
   input-imports = [
     "github.com/Masterminds/semver",
     "github.com/andreyvit/diff",
-    "github.com/percona/exporter_shared",
-    "github.com/percona/exporter_shared/helpers",
-    "github.com/percona/pmm/version",
+    "github.com/jpgpereira/exporter_shared",
+    "github.com/jpgpereira/exporter_shared/helpers",
+    "github.com/jpgpereira/pmm/version",
     "github.com/prometheus/client_golang/prometheus",
     "github.com/prometheus/client_golang/prometheus/promhttp",
     "github.com/prometheus/common/log",

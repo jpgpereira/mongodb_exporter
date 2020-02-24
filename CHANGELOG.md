@@ -162,19 +162,19 @@ with source code locations.
 ### Added
 - First tagged version.
 
-[Unreleased]: https://github.com/percona/mongodb_exporter/compare/v0.10.0...HEAD
-[0.10.0]: https://github.com/percona/mongodb_exporter/compare/v0.9.0...v0.10.0
-[0.9.0]: https://github.com/percona/mongodb_exporter/compare/v0.8.0...v0.9.0
-[0.8.0]: https://github.com/percona/mongodb_exporter/compare/v0.7.1...v0.8.0
-[0.7.1]: https://github.com/percona/mongodb_exporter/compare/v0.7.0...v0.7.1
-[0.7.0]: https://github.com/percona/mongodb_exporter/compare/v0.6.3...v0.7.0
-[0.6.3]: https://github.com/percona/mongodb_exporter/compare/v0.6.2...v0.6.3
-[0.6.2]: https://github.com/percona/mongodb_exporter/compare/v0.6.1...v0.6.2
-[0.6.1]: https://github.com/percona/mongodb_exporter/compare/v0.6.0...v0.6.1
-[0.6.0]: https://github.com/percona/mongodb_exporter/compare/v0.5.0...v0.6.0
-[0.5.0]: https://github.com/percona/mongodb_exporter/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/percona/mongodb_exporter/compare/v0.3.1...v0.4.0
-[0.3.1]: https://github.com/percona/mongodb_exporter/compare/v0.3.0...v0.3.1
-[0.3.0]: https://github.com/percona/mongodb_exporter/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/percona/mongodb_exporter/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/percona/mongodb_exporter/compare/14803c0f7aed483297a06b3fcfacafee5cf1b8f9...v0.1.0
+[Unreleased]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.9.0...v0.10.0
+[0.9.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.8.0...v0.9.0
+[0.8.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.7.1...v0.8.0
+[0.7.1]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.7.0...v0.7.1
+[0.7.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.6.3...v0.7.0
+[0.6.3]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.6.2...v0.6.3
+[0.6.2]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.6.1...v0.6.2
+[0.6.1]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.6.0...v0.6.1
+[0.6.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.5.0...v0.6.0
+[0.5.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.3.1...v0.4.0
+[0.3.1]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/jpgpereira/mongodb_exporter/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/jpgpereira/mongodb_exporter/compare/14803c0f7aed483297a06b3fcfacafee5cf1b8f9...v0.1.0

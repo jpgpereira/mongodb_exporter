@@ -8,8 +8,8 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 
-	"github.com/percona/mongodb_exporter/collector/common"
-	"github.com/percona/mongodb_exporter/shared"
+	"github.com/jpgpereira/mongodb_exporter/collector/common"
+	"github.com/jpgpereira/mongodb_exporter/shared"
 )
 
 var (

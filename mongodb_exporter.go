@@ -20,17 +20,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/percona/exporter_shared"
+	"github.com/jpgpereira/exporter_shared"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/log"
 	"github.com/prometheus/common/version"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	pmmVersion "github.com/percona/pmm/version"
+	pmmVersion "github.com/jpgpereira/pmm/version"
 
-	"github.com/percona/mongodb_exporter/collector"
-	"github.com/percona/mongodb_exporter/shared"
+	"github.com/jpgpereira/mongodb_exporter/collector"
+	"github.com/jpgpereira/mongodb_exporter/shared"
 )
 
 const (
@@ -79,8 +79,8 @@ func main() {
 		os.Exit(0)
 	}
 
-	// TODO: Maybe we should move version.Info() and version.BuildContext() to https://github.com/percona/exporter_shared
-	// See: https://jira.percona.com/browse/PMM-3250 and https://github.com/percona/mongodb_exporter/pull/132#discussion_r262227248
+	// TODO: Maybe we should move version.Info() and version.BuildContext() to https://github.com/jpgpereira/exporter_shared
+	// See: https://jira.percona.com/browse/PMM-3250 and https://github.com/jpgpereira/mongodb_exporter/pull/132#discussion_r262227248
 	log.Infoln("Starting", program, version.Info())
 	log.Infoln("Build context", version.BuildContext())
 
@@ -107,8 +107,8 @@ func main() {
 // If binary was build for PMM with environment variable PMM_RELEASE_VERSION
 // `--version` will be displayed in PMM format. Also `PMM Version` will be connected
 // to application version and will be printed in all logs.
-// TODO: Refactor after moving version.Info() and version.BuildContext() to https://github.com/percona/exporter_shared
-// See: https://jira.percona.com/browse/PMM-3250 and https://github.com/percona/mongodb_exporter/pull/132#discussion_r262227248
+// TODO: Refactor after moving version.Info() and version.BuildContext() to https://github.com/jpgpereira/exporter_shared
+// See: https://jira.percona.com/browse/PMM-3250 and https://github.com/jpgpereira/mongodb_exporter/pull/132#discussion_r262227248
 func initVersionInfo() {
 	version.Version = pmmVersion.Version
 	version.Revision = pmmVersion.FullCommit

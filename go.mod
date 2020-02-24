@@ -1,4 +1,4 @@
-module github.com/percona/mongodb_exporter
+module github.com/jpgpereira/mongodb_exporter
 
 go 1.13
 
@@ -9,8 +9,8 @@ require (
 	github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/go-cmp v0.3.0 // indirect
-	github.com/percona/exporter_shared v0.4.0
-	github.com/percona/pmm v0.0.0-20190616165924-3b769b4ca86e
+	github.com/jpgpereira/exporter_shared v0.4.0
+	github.com/jpgpereira/pmm v0.0.0-20190616165924-3b769b4ca86e
 	github.com/prometheus/client_golang v1.0.0
 	github.com/prometheus/common v0.6.0
 	github.com/sergi/go-diff v1.0.0 // indirect

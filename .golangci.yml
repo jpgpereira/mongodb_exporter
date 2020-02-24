@@ -7,7 +7,7 @@ linters-settings:
       - errors
 
   goimports:
-    local-prefixes: github.com/percona/mongodb_exporter
+    local-prefixes: github.com/jpgpereira/mongodb_exporter
 
   lll:
     line-length: 170

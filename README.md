@@ -1,9 +1,9 @@
 # Percona MongoDB Exporter
 
-[![Release](https://img.shields.io/github/release/percona/mongodb_exporter.svg?style=flat)](https://github.com/percona/mongodb_exporter/releases/latest)
+[![Release](https://img.shields.io/github/release/percona/mongodb_exporter.svg?style=flat)](https://github.com/jpgpereira/mongodb_exporter/releases/latest)
 [![Build Status](https://travis-ci.com/percona/mongodb_exporter.svg?branch=master)](https://travis-ci.com/percona/mongodb_exporter)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/percona/mongodb_exporter.svg?maxAge=2592000)](https://codecov.io/github/percona/mongodb_exporter?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/percona/mongodb_exporter)](https://goreportcard.com/report/github.com/percona/mongodb_exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jpgpereira/mongodb_exporter)](https://goreportcard.com/report/github.com/jpgpereira/mongodb_exporter)
 [![CLA assistant](https://cla-assistant.percona.com/readme/badge/percona/mongodb_exporter)](https://cla-assistant.percona.com/percona/mongodb_exporter)
 
 Based on [MongoDB exporter](https://github.com/dcu/mongodb_exporter) by David Cuadrado ([@dcu](https://github.com/dcu)), but forked for full sharded support and structure changes.
@@ -34,12 +34,12 @@ Metrics `mongodb_mongod_replset_oplog_*` doesn't work in [Master/Slave](https://
 1. Get the code from the Percona repository:
  
     ```bash
-    go get -u github.com/percona/mongodb_exporter
+    go get -u github.com/jpgpereira/mongodb_exporter
     ```
  2. Switch to the buld directory and just run ``make`` to install all needed tools, format code with `go fmt`, build a binary for your OS and run tests.:
  
     ```bash
-    cd ${GOPATH-$HOME/go}/src/github.com/percona/mongodb_exporter
+    cd ${GOPATH-$HOME/go}/src/github.com/jpgpereira/mongodb_exporter
     make
     ```
     *Note: Running tests requires ``docker`` (as it uses MongoDB) and ``docker-compose``, and you will also need free ``27017`` port, as ``docker-compose`` maps this port into your host OS while testing.*

@@ -13,7 +13,7 @@ branches:
   except:
     - /^PMM\-\d{4}/
 
-go_import_path: github.com/percona/mongodb_exporter
+go_import_path: github.com/jpgpereira/mongodb_exporter
 
 matrix:
   allow_failures:

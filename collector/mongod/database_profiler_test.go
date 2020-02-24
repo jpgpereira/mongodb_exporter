@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/bson"
 
-	"github.com/percona/mongodb_exporter/shared"
-	"github.com/percona/mongodb_exporter/testutils"
+	"github.com/jpgpereira/mongodb_exporter/shared"
+	"github.com/jpgpereira/mongodb_exporter/testutils"
 )
 
 func TestGetDatabaseProfilerStatsDecodesFine(t *testing.T) {

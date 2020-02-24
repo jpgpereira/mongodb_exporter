@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/percona/exporter_shared/helpers"
+	"github.com/jpgpereira/exporter_shared/helpers"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/prometheus/client_golang/prometheus"

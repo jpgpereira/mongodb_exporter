@@ -24,11 +24,11 @@ import (
 	"time"
 
 	"github.com/andreyvit/diff"
-	pmmVersion "github.com/percona/pmm/version"
+	pmmVersion "github.com/jpgpereira/pmm/version"
 	"github.com/prometheus/common/version"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/percona/mongodb_exporter/shared"
+	"github.com/jpgpereira/mongodb_exporter/shared"
 )
 
 var Update = flag.Bool("update", false, "update .golden files")
@@ -59,7 +59,7 @@ func TestBin(t *testing.T) {
 		}
 	}()
 
-	importpath := "github.com/percona/mongodb_exporter/vendor/github.com/percona/pmm"
+	importpath := "github.com/jpgpereira/mongodb_exporter/vendor/github.com/jpgpereira/pmm"
 	path := binDir + "/" + binName
 	xVariables := map[string]string{
 		importpath + "/version.Version":    "gotest-version",
